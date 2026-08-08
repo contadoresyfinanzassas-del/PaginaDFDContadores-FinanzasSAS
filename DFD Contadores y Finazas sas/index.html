@@ -1,0 +1,423 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="D.F.D Contadores & Finanzas S.A.S. - Outsourcing contable, financiero, tributario, administrativo y de nómina para empresas en Colombia.">
+  <meta name="theme-color" content="#0b3d91">
+  <title>D.F.D Contadores & Finanzas S.A.S. | Outsourcing Contable</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+  <div class="topbar">
+    <div class="container topbar-inner">
+      <span data-i18n="topbarText">Outsourcing contable • Asesoría financiera • Tributaria • Administrativa</span>
+      <div class="top-actions">
+        <button class="lang-btn active" data-lang="es" aria-label="Cambiar a español">ES</button>
+        <span>/</span>
+        <button class="lang-btn" data-lang="en" aria-label="Switch to English">EN</button>
+        <button id="themeToggle" class="icon-btn" aria-label="Cambiar modo de visualización" title="Modo de visualización">◐</button>
+      </div>
+    </div>
+  </div>
+
+  <header class="header" id="inicio">
+    <div class="container nav-wrap">
+      <a class="brand" href="#inicio" aria-label="D.F.D Contadores & Finanzas">
+        <!-- FREDY: aquí puedes cambiar la ruta del LOGO corporativo -->
+        <img src="assets/logo-dfd.jpg" alt="D.F.D Contadores & Finanzas S.A.S.">
+      </a>
+
+      <button class="menu-toggle" id="menuToggle" aria-label="Abrir menú">☰</button>
+
+      <nav class="nav" id="mainNav">
+        <a href="#servicios" data-i18n="navServices">Servicios</a>
+        <a href="#nosotros" data-i18n="navAbout">Nosotros</a>
+        <a href="#historia" data-i18n="navHistory">Historia</a>
+        <a href="#metodologia" data-i18n="navMethod">Metodología</a>
+        <a href="#profesionales" data-i18n="navTeam">Equipo</a>
+        <a href="#contacto" class="nav-cta" data-i18n="navContact">Hablemos</a>
+      </nav>
+    </div>
+  </header>
+
+  <main>
+    <section class="hero">
+      <div class="hero-orb orb-one"></div>
+      <div class="hero-orb orb-two"></div>
+      <div class="container hero-grid">
+        <div class="hero-copy reveal">
+          <div class="eyebrow"><span class="pulse"></span><span data-i18n="eyebrow">OUTSOURCING CONTABLE EN COLOMBIA</span></div>
+          <h1 data-i18n="heroTitle">Tu empresa avanza. <span>Nosotros cuidamos sus números.</span></h1>
+          <p data-i18n="heroText">
+            Acompañamos a pequeñas, medianas y microempresas con servicios contables, administrativos,
+            financieros, tributarios y de nómina, buscando seguridad, confianza y eficiencia.
+          </p>
+
+          <div class="hero-actions">
+            <!-- FREDY: aquí coloca el enlace de WhatsApp -->
+            <a class="btn btn-primary" href="https://wa.me/message/EMQEM6KXTAOGC1" target="_blank" rel="noopener" data-i18n="heroButton">Solicitar asesoría →</a>
+            <a class="btn btn-ghost" href="#servicios" data-i18n="heroSecondary">Ver servicios</a>
+          </div>
+
+          <div class="trust-row">
+            <div><strong>+18</strong><span data-i18n="trustOne">años de experiencia tributaria</span></div>
+            <div><strong>+10</strong><span data-i18n="trustTwo">años de experiencia contable y financiera</span></div>
+            <div><strong>360°</strong><span data-i18n="trustThree">acompañamiento empresarial</span></div>
+          </div>
+        </div>
+
+        <div class="hero-card reveal">
+          <div class="card-glow"></div>
+          <div class="dashboard">
+            <div class="dashboard-top">
+              <div>
+                <small data-i18n="dashboardLabel">VISIÓN EMPRESARIAL</small>
+                <h3 data-i18n="dashboardTitle">Información para decidir mejor</h3>
+              </div>
+              <span class="status"><i></i><span data-i18n="status">Acompañamiento</span></span>
+            </div>
+            <div class="chart">
+              <span class="bar b1"></span><span class="bar b2"></span><span class="bar b3"></span>
+              <span class="bar b4"></span><span class="bar b5"></span><span class="bar b6"></span>
+              <span class="bar b7"></span>
+            </div>
+            <div class="dashboard-footer">
+              <div><small data-i18n="dashboardBottom">ENFOQUE</small><strong data-i18n="dashboardBottomValue">Orden + análisis + cumplimiento</strong></div>
+              <span class="arrow">↗</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="ticker">
+      <div class="ticker-track">
+        <span>CONTABILIDAD</span><b>✦</b><span>TRIBUTARIA</span><b>✦</b><span>FINANZAS</span><b>✦</b>
+        <span>NÓMINA</span><b>✦</b><span>ADMINISTRACIÓN</span><b>✦</b><span>OUTSOURCING</span><b>✦</b>
+        <span>CONTABILIDAD</span><b>✦</b><span>TRIBUTARIA</span><b>✦</b><span>FINANZAS</span>
+      </div>
+    </section>
+
+    <section class="section" id="servicios">
+      <div class="container">
+        <div class="section-heading reveal">
+          <div>
+            <div class="eyebrow">01 / <span data-i18n="servicesEyebrow">SOLUCIONES</span></div>
+            <h2 data-i18n="servicesTitle">Un equipo para las áreas que más importan.</h2>
+          </div>
+          <p data-i18n="servicesIntro">Una propuesta de tercerización pensada para que el empresario tenga respaldo profesional y pueda concentrarse en hacer crecer su negocio.</p>
+        </div>
+
+        <div class="services-grid">
+          <article class="service-card featured reveal">
+            <div class="service-number">01</div>
+            <div class="service-icon">▦</div>
+            <h3 data-i18n="service1Title">Contabilidad</h3>
+            <p data-i18n="service1Text">Registro de operaciones, análisis de cuentas, estados financieros y soporte de información contable.</p>
+            <ul>
+              <li data-i18n="s1a">Registros mensuales</li>
+              <li data-i18n="s1b">Estados financieros</li>
+              <li data-i18n="s1c">Análisis de balance y resultados</li>
+            </ul>
+          </article>
+
+          <article class="service-card reveal">
+            <div class="service-number">02</div>
+            <div class="service-icon">%</div>
+            <h3 data-i18n="service2Title">Tributaria</h3>
+            <p data-i18n="service2Text">Preparación, liquidación y presentación de obligaciones tributarias nacionales y municipales.</p>
+            <ul>
+              <li data-i18n="s2a">Declaraciones tributarias</li>
+              <li data-i18n="s2b">Renta y complementarios</li>
+              <li data-i18n="s2c">ICA y medios magnéticos cuando aplique</li>
+            </ul>
+          </article>
+
+          <article class="service-card reveal">
+            <div class="service-number">03</div>
+            <div class="service-icon">₿</div>
+            <h3 data-i18n="service3Title">Finanzas</h3>
+            <p data-i18n="service3Text">Análisis financiero y acompañamiento para comprender resultados, recursos y riesgos empresariales.</p>
+            <ul>
+              <li data-i18n="s3a">Flujo de efectivo</li>
+              <li data-i18n="s3b">Análisis de resultados</li>
+              <li data-i18n="s3c">Informes para entidades</li>
+            </ul>
+          </article>
+
+          <article class="service-card reveal">
+            <div class="service-number">04</div>
+            <div class="service-icon">⌁</div>
+            <h3 data-i18n="service4Title">Nómina</h3>
+            <p data-i18n="service4Text">Elaboración mensual de nómina y acompañamiento relacionado con procesos laborales y seguridad social.</p>
+            <ul>
+              <li data-i18n="s4a">Liquidación mensual</li>
+              <li data-i18n="s4b">Procesos laborales</li>
+              <li data-i18n="s4c">Seguridad social</li>
+            </ul>
+          </article>
+
+          <article class="service-card reveal">
+            <div class="service-number">05</div>
+            <div class="service-icon">◫</div>
+            <h3 data-i18n="service5Title">Administración</h3>
+            <p data-i18n="service5Text">Asesoría permanente para ordenar procesos y apoyar la gestión administrativa de la empresa.</p>
+            <ul>
+              <li data-i18n="s5a">Planeación administrativa</li>
+              <li data-i18n="s5b">Soporte a requerimientos</li>
+              <li data-i18n="s5c">Acompañamiento continuo</li>
+            </ul>
+          </article>
+
+          <article class="service-card reveal">
+            <div class="service-number">06</div>
+            <div class="service-icon">◎</div>
+            <h3 data-i18n="service6Title">Outsourcing</h3>
+            <p data-i18n="service6Text">Tercerización de servicios en las instalaciones de D.F.D. o en las instalaciones del cliente.</p>
+            <ul>
+              <li data-i18n="s6a">Trabajo remoto/presencial según acuerdo</li>
+              <li data-i18n="s6b">Uso de sistemas del cliente</li>
+              <li data-i18n="s6c">Custodia de información</li>
+            </ul>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section class="split-section" id="nosotros">
+      <div class="container split-grid">
+        <div class="image-placeholder video-frame reveal">
+          <!-- FREDY: VIDEO CORPORATIVO. Se conserva 16:9 y se habilita sonido mediante los controles. -->
+          <video controls loop playsinline preload="metadata" aria-label="Video corporativo de D.F.D Contadores & Finanzas S.A.S.">
+            <source src="Videos/introducion.mp4" type="video/mp4">
+            Tu navegador no puede reproducir este video.
+          </video>
+        </div>
+        <div class="about-copy reveal">
+          <div class="eyebrow">02 / <span data-i18n="aboutEyebrow">NOSOTROS</span></div>
+          <h2 data-i18n="aboutTitle">Profesionales que convierten la información en respaldo para tu empresa.</h2>
+          <p data-i18n="aboutText1">D.F.D Contadores & Finanzas S.A.S. tiene como objetivo asesorar directamente a pequeñas y medianas empresas de distintos sectores, desarrollando consultorías y asesorías administrativas, financieras, tributarias y de nómina.</p>
+          <p data-i18n="aboutText2">La firma presta servicios de tercerización con respaldo profesional, conservación y adecuada custodia de la información, junto con actualización permanente de la normatividad vigente.</p>
+
+          <div class="mission-grid">
+            <div class="mini-card">
+              <span>MISIÓN</span>
+              <p data-i18n="mission">Brindar un servicio de calidad, generando seguridad, confianza y eficiencia.</p>
+            </div>
+            <div class="mini-card">
+              <span>VISIÓN</span>
+              <p data-i18n="vision">Ser una empresa con el mejor servicio para pymes y micro pymes, donde la calidad y el servicio sean prioridad.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section history" id="historia">
+      <div class="container">
+        <div class="section-heading centered reveal">
+          <div>
+            <div class="eyebrow">03 / <span data-i18n="historyEyebrow">NUESTRA HISTORIA</span></div>
+            <h2 data-i18n="historyTitle">El capital que necesitaba números: la historia de Carlos David, Patricia y Brayan</h2>
+          </div>
+          <p data-i18n="historyIntro">Una empresa construida desde una experiencia real, con la convicción de que las pymes necesitan números que sirvan para decidir a tiempo.</p>
+        </div>
+
+        <article class="history-story reveal">
+          <div class="history-lead">
+            <span class="history-kicker" data-i18n="historyKicker">EL ORIGEN</span>
+            <p data-i18n="historyLead">Carlos David Rodríguez Silva nunca fue contador. Era, ante todo, un hombre de negocios: de los que ven una oportunidad antes que los demás y no le tienen miedo a arriesgar capital propio.</p>
+            <blockquote data-i18n="historyQuote">—Yo tenía clientes, tenía ventas, tenía un buen producto —solía contar—. Lo que no tenía era a alguien que me dijera a tiempo que me estaba quedando sin oxígeno.</blockquote>
+          </div>
+
+          <div class="history-body">
+            <section class="history-chapter">
+              <span class="history-number">01</span>
+              <div>
+                <h3 data-i18n="historyProblemTitle">El problema</h3>
+                <p data-i18n="historyProblem1">De esa experiencia, Carlos David sacó una conclusión que no lo dejó tranquilo: su historia no era la excepción, era la norma. La mayoría de los pequeños y medianos empresarios en Colombia no quiebran por falta de clientes ni de buenas ideas, sino por una desconexión constante entre el día a día del negocio y el manejo real de sus finanzas. Mezclan el dinero personal con el del negocio, no saben cuánto les cuesta realmente producir lo que venden, y toman decisiones grandes —contratar, endeudarse, expandirse— guiados por intuición, no por datos.</p>
+                <p data-i18n="historyProblem2">El problema de fondo, además, no era solo de conocimiento: era de acceso. La asesoría contable y financiera seria existía, pero estaba pensada para grandes compañías, con tarifas y un lenguaje que dejaban por fuera justo a quienes más la necesitaban.</p>
+                <p data-i18n="historyProblem3">Carlos David tenía el capital, la visión comercial y las ganas de construir algo distinto. Lo que no tenía era la credibilidad técnica para hacerlo solo, y lo sabía.</p>
+              </div>
+            </section>
+
+            <section class="history-chapter">
+              <span class="history-number">02</span>
+              <div>
+                <h3 data-i18n="historySolutionTitle">La solución</h3>
+                <p data-i18n="historySolution1">Ahí entraron Patricia Baracaldo y Brayan Vargas, dos contadores públicos que Carlos David conoció por referencia de un colega, ambos con años de experiencia trabajando de cerca con pequeñas empresas, cansados de ver los mismos errores repetirse una y otra vez en negocios que sí podían salvarse a tiempo.</p>
+                <p data-i18n="historySolution2">Patricia se especializó en el terreno más temido por los empresarios: la planeación tributaria y la formalización ante la DIAN, ese proceso que muchos posponen por miedo a que “les vaya peor” si se ponen en regla. Brayan, por su parte, se volvió experto en algo igual de crítico y casi siempre ignorado: el costeo real y el flujo de caja, es decir, entender cuánto cuesta cada cosa y hacia dónde se va el dinero del negocio mes a mes.</p>
+                <p data-i18n="historySolution3">Los tres se sentaron a fundar la empresa con los roles claros desde el primer día: Carlos David puso el capital inicial, la relación con los primeros clientes y asumió la representación legal de la compañía; Patricia y Brayan pusieron el rigor técnico, la tranquilidad de una firma de contadores públicos certificados detrás de cada recomendación.</p>
+                <blockquote data-i18n="historyQuote2">—Yo abro las puertas y consigo la confianza inicial —dice Carlos David—. Pero quien se queda ahí, mirando los números línea por línea hasta encontrar la solución, son ellos dos.</blockquote>
+              </div>
+            </section>
+
+            <section class="history-chapter">
+              <span class="history-number">03</span>
+              <div>
+                <h3 data-i18n="historyFirstClientTitle">El primer cliente</h3>
+                <p data-i18n="historyFirstClient">El primer cliente formal de la firma fue un taller de confección en Restrepo, muy parecido al negocio que Carlos David había perdido años atrás. Patricia se encargó de poner en orden su situación tributaria sin poner en riesgo lo que ya habían construido; Brayan reorganizó su estructura de costos y le mostró, por primera vez, cuánto le costaba realmente producir cada prenda. Dos años después, el taller no solo seguía en pie: había duplicado su margen de ganancia sin vender una prenda más.</p>
+              </div>
+            </section>
+
+            <section class="history-chapter">
+              <span class="history-number">04</span>
+              <div>
+                <h3 data-i18n="historyPymesTitle">Lo que ese problema revela sobre las pymes en Colombia</h3>
+                <p data-i18n="historyPymes1">La historia de ese taller no es un caso aislado: es, en gran medida, el retrato de la economía colombiana. Las micro, pequeñas y medianas empresas representan la enorme mayoría del tejido empresarial del país y son responsables de la mayor parte del empleo que se genera. Sin embargo, buena parte de esas empresas no desaparece por falta de mercado, sino por debilidades en su gestión financiera: informalidad, ausencia de planeación tributaria, mezcla de finanzas personales y del negocio, y falta de acceso a asesoría experta y asequible.</p>
+                <p data-i18n="historyPymes2">Por eso Carlos David insiste en que su empresa no nació solo de una idea de negocio: nació de una pérdida real, convertida en capital para resolver el mismo problema que a él lo hizo tropezar. Y por eso, cuando alguien le pregunta quién es el corazón técnico de la firma, no duda en señalar a Patricia y a Brayan.</p>
+                <blockquote data-i18n="historyQuote3">—Yo pongo la confianza para que un empresario cruce la puerta —dice—. Ellos son la razón por la que se queda.</blockquote>
+              </div>
+            </section>
+          </div>
+        </article>
+      </div>
+    </section>
+
+    <section class="section methodology" id="metodologia">
+      <div class="container">
+        <div class="section-heading centered reveal">
+          <div>
+            <div class="eyebrow">04 / <span data-i18n="methodEyebrow">METODOLOGÍA</span></div>
+            <h2 data-i18n="methodTitle">Ordenamos el proceso para que tú tengas claridad.</h2>
+          </div>
+          <p data-i18n="methodIntro">Nuestro modelo parte de la documentación y continúa con revisión, análisis, elaboración, presentación y asesoría permanente.</p>
+        </div>
+
+        <div class="steps">
+          <div class="step reveal"><span>01</span><h3 data-i18n="step1">Recibimos</h3><p data-i18n="step1Text">Documentación soporte de ingresos, costos y gastos.</p></div>
+          <div class="step reveal"><span>02</span><h3 data-i18n="step2">Revisamos</h3><p data-i18n="step2Text">Validamos información y analizamos los movimientos.</p></div>
+          <div class="step reveal"><span>03</span><h3 data-i18n="step3">Procesamos</h3><p data-i18n="step3Text">Registramos, elaboramos y liquidamos la información requerida.</p></div>
+          <div class="step reveal"><span>04</span><h3 data-i18n="step4">Acompañamos</h3><p data-i18n="step4Text">Mantenemos asesoría por teléfono, email o en las instalaciones del cliente cuando sea necesario.</p></div>
+        </div>
+      </div>
+    </section>
+
+    <section class="systems">
+      <div class="container systems-inner">
+        <div class="eyebrow">05 / <span data-i18n="systemsEyebrow">TECNOLOGÍA</span></div>
+        <h2 data-i18n="systemsTitle">Trabajamos con diferentes sistemas de información.</h2>
+        <p data-i18n="systemsText">Según el servicio y las necesidades del cliente, el portafolio contempla herramientas y sistemas contables como:</p>
+        <div class="system-pills">
+          <span>Siigo</span><span>Word Office</span><span>Helisa</span><span>Oracle NetSuite</span><span>SAP</span>
+        </div>
+      </div>
+    </section>
+
+    <section class="section team" id="profesionales">
+      <div class="container">
+        <div class="section-heading reveal">
+          <div>
+            <div class="eyebrow">06 / <span data-i18n="teamEyebrow">EQUIPO</span></div>
+            <h2 data-i18n="teamTitle">Experiencia profesional detrás de cada proceso.</h2>
+          </div>
+        </div>
+
+        <div class="team-grid">
+          <article class="person-card reveal">
+            <!-- FREDY: AQUÍ COLOCA LA FOTO DE MARIA PATRICIA -->
+            <div class="person-photo"><span>+</span><small>maria-patricia.jpg</small></div>
+            <div class="person-info">
+              <span data-i18n="founder">FUNDADORA</span>
+              <h3>MARIA PATRICIA BARACALDO VARGAS</h3>
+              <p data-i18n="mariaBio">Contadora Pública, Diplomado en Normas Internacionales, con amplio conocimiento en contabilidad general, desarrollos y sistemas de información y más de 18 años de experiencia en el área tributaria.</p>
+              <div class="tags"><span>Siigo</span><span>Helisa</span><span>Ofimática</span></div>
+            </div>
+          </article>
+
+          <article class="person-card reveal">
+            <!-- FREDY: AQUÍ COLOCA LA FOTO DE BRAYAN DONOBAN -->
+            <div class="person-photo"><span>+</span><small>brayan-donoban.jpg</small></div>
+            <div class="person-info">
+              <span data-i18n="founder">FUNDADOR</span>
+              <h3>BRAYAN DONOBAN STEVEN VARGAS SUAREZ</h3>
+              <p data-i18n="brayanBio">Contador Público, Diplomado en Normas Internacionales, con amplio conocimiento en contabilidad general y financiera, planeación tributaria y más de 10 años de experiencia en el área tributaria.</p>
+              <div class="tags"><span>Siigo</span><span>Helisa</span><span>SAP</span><span>NetSuite</span></div>
+            </div>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section class="cta-section" id="contacto">
+      <div class="container cta-box reveal">
+        <div>
+          <div class="eyebrow">07 / <span data-i18n="ctaEyebrow">CONVERSEMOS</span></div>
+          <h2 data-i18n="ctaTitle">¿Quieres ordenar la gestión contable y financiera de tu empresa?</h2>
+          <p data-i18n="ctaText">Cuéntanos qué necesita tu empresa y construyamos el esquema de acompañamiento adecuado.</p>
+        </div>
+        <div class="cta-actions">
+          <!-- FREDY: CAMBIA ESTE ENLACE POR TU WHATSAPP -->
+          <a class="btn btn-primary" href="https://wa.me/message/EMQEM6KXTAOGC1" target="_blank" rel="noopener" data-i18n="ctaButton">Hablar por WhatsApp →</a>
+          <!-- FREDY: CAMBIA ESTE MAIL POR EL CORREO CORPORATIVO -->
+          <!-- FREDY: EL CORREO FUE CARGADO TAL COMO LO ENVIASTE. VERIFICA SI DEBE TERMINAR EN .COM -->
+          <a class="email-link" href="mailto:contadoresyfinanzassas@gmail">contadoresyfinanzassas@gmail</a>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <div class="container footer-grid">
+      <div>
+        <img class="footer-logo" src="assets/logo-dfd.jpg" alt="D.F.D Contadores & Finanzas S.A.S.">
+        <!-- FREDY: AQUÍ PUEDES CAMBIAR EL ESLOGAN -->
+        <p class="slogan" data-i18n="slogan">Seguridad, confianza y eficiencia para tu empresa.</p>
+        <!-- FREDY: AQUÍ COLOCA NIT, DIRECCIÓN Y CIUDAD -->
+        <p class="legal">D.F.D Contadores & Finanzas S.A.S.<br>NIT: 902023513-8</p>
+      </div>
+
+      <div>
+        <h4 data-i18n="footerExplore">Explora</h4>
+        <a href="#servicios" data-i18n="navServices">Servicios</a>
+        <a href="#nosotros" data-i18n="navAbout">Nosotros</a>
+        <a href="#historia" data-i18n="navHistory">Historia</a>
+        <a href="#profesionales" data-i18n="navTeam">Equipo</a>
+        <a href="#contacto" data-i18n="navContact">Hablemos</a>
+      </div>
+
+      <div>
+        <h4 data-i18n="footerContact">Contacto</h4>
+        <!-- FREDY: AQUÍ COLOCA TELÉFONO Y WHATSAPP -->
+        <a href="tel:+573006539053">+57 300 653 9053</a>
+        <!-- FREDY: VERIFICA SI EL CORREO DEBE TERMINAR EN .COM -->
+        <a href="mailto:contadoresyfinanzassas@gmail">contadoresyfinanzassas@gmail</a>
+        <span data-i18n="footerHours">Lunes a viernes · 8:00 a.m. – 5:00 p.m.</span>
+      </div>
+
+      <div>
+        <h4 data-i18n="footerSocial">Redes sociales</h4>
+        <div class="social-links">
+          <a class="social-link" href="https://wa.me/message/EMQEM6KXTAOGC1" target="_blank" rel="noopener" aria-label="WhatsApp Business" title="WhatsApp Business">
+            <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M20.5 3.5A11.8 11.8 0 0 0 12.08 0C5.55 0 .24 5.3.24 11.83c0 2.08.54 4.1 1.57 5.88L.14 24l6.44-1.64a11.8 11.8 0 0 0 5.5 1.36h.01c6.53 0 11.84-5.31 11.84-11.84 0-3.16-1.23-6.13-3.43-8.38ZM12.09 21.7h-.01a9.85 9.85 0 0 1-5.02-1.37l-.36-.21-3.82.97 1.02-3.72-.23-.38a9.86 9.86 0 0 1-1.51-5.16C2.16 6.38 6.61 1.93 12.09 1.93c2.65 0 5.14 1.03 7.02 2.91a9.84 9.84 0 0 1 2.91 7.02c0 5.48-4.45 9.93-9.93 9.93Zm5.45-7.44c-.3-.15-1.78-.88-2.06-.98-.28-.1-.49-.15-.7.15-.21.31-.8.98-.98 1.18-.18.21-.36.23-.66.08-.3-.15-1.28-.47-2.44-1.51-.9-.8-1.51-1.79-1.69-2.09-.18-.31-.02-.47.13-.62.14-.14.31-.36.46-.54.15-.18.2-.31.31-.51.1-.2.05-.38-.03-.54-.08-.15-.7-1.68-.96-2.3-.25-.6-.51-.52-.7-.53h-.6c-.2 0-.54.08-.82.38-.28.31-1.07 1.04-1.07 2.54s1.1 2.95 1.25 3.15c.15.2 2.17 3.31 5.25 4.64.73.32 1.3.51 1.75.65.74.23 1.41.2 1.94.12.59-.09 1.78-.73 2.03-1.43.25-.7.25-1.3.18-1.43-.08-.13-.28-.2-.59-.36Z"/></svg>
+          </a>
+          <a class="social-link" href="https://web.facebook.com/ContadoresyFinanzasSAS" target="_blank" rel="noopener" aria-label="Facebook" title="Facebook">
+            <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M13.5 22v-8h2.7l.4-3h-3.1V9.1c0-.87.24-1.46 1.5-1.46h1.7V4.96c-.3-.04-1.35-.13-2.57-.13-2.55 0-4.3 1.56-4.3 4.43V11H7v3h2.83v8h3.67Z"/></svg>
+          </a>
+          <a class="social-link" href="https://www.instagram.com/contadoresyfinanzas/" target="_blank" rel="noopener" aria-label="Instagram" title="Instagram">
+            <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M7.2 2h9.6A5.2 5.2 0 0 1 22 7.2v9.6a5.2 5.2 0 0 1-5.2 5.2H7.2A5.2 5.2 0 0 1 2 16.8V7.2A5.2 5.2 0 0 1 7.2 2Zm0 2A3.2 3.2 0 0 0 4 7.2v9.6A3.2 3.2 0 0 0 7.2 20h9.6a3.2 3.2 0 0 0 3.2-3.2V7.2A3.2 3.2 0 0 0 16.8 4H7.2Zm9.95 1.5a1.35 1.35 0 1 1 0 2.7 1.35 1.35 0 0 1 0-2.7ZM12 7a5 5 0 1 1 0 10 5 5 0 0 1 0-10Zm0 2a3 3 0 1 0 0 6 3 3 0 0 0 0-6Z"/></svg>
+          </a>
+          <!-- FREDY: AQUÍ COLOCA EL ENLACE DE LINKEDIN CUANDO LO TENGAN -->
+          <a class="social-link social-link-placeholder" href="#" aria-label="LinkedIn" title="LinkedIn pendiente">
+            <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M5.2 7.1A2.1 2.1 0 1 1 5.2 3a2.1 2.1 0 0 1 0 4.1ZM3.4 20.9h3.6V9H3.4v11.9ZM9.2 9h3.4v1.63h.05c.47-.9 1.62-1.85 3.34-1.85 3.57 0 4.23 2.35 4.23 5.4v6.72h-3.55v-5.95c0-1.42-.03-3.24-1.97-3.24-1.97 0-2.27 1.54-2.27 3.14v6.05H9.2V9Z"/></svg>
+          </a>
+          <a class="social-link" href="https://www.youtube.com/@D.F.DContadoresFinanzasS.A.S" target="_blank" rel="noopener" aria-label="YouTube" title="YouTube">
+            <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M23.5 6.2a3 3 0 0 0-2.1-2.12C19.55 3.55 12 3.55 12 3.55s-7.55 0-9.4.53A3 3 0 0 0 .5 6.2 31.5 31.5 0 0 0 0 12a31.5 31.5 0 0 0 .5 5.8 3 3 0 0 0 2.1 2.12c1.85.53 9.4.53 9.4.53s7.55 0 9.4-.53a3 3 0 0 0 2.1-2.12A31.5 31.5 0 0 0 24 12a31.5 31.5 0 0 0-.5-5.8ZM9.55 15.6V8.4L15.7 12l-6.15 3.6Z"/></svg>
+          </a>
+        </div>
+      </div>
+    </div>
+    <div class="container footer-bottom">
+      <span>© <span id="year"></span> D.F.D Contadores & Finanzas S.A.S.</span>
+      <span data-i18n="footerBottom">Todos los derechos reservados.</span>
+    </div>
+  </footer>
+
+  <button id="backTop" class="back-top" aria-label="Volver arriba">↑</button>
+  <div id="toast" class="toast" role="status"></div>
+
+  <script src="script.js"></script>
+</body>
+</html>
